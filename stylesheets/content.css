@@ -72,15 +72,13 @@ h1{
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-.concept_container{
+#concept_container{
   position: relative;
   width: 100%;
   height: 6.92706744%;
-  /* background: brown; */
   display: block;
-  /* opacity: 0.5; */
 }
-#concept_title{
+.concept_title{
   font-size: 58px;
   font-weight: 700;
   width: 30%;
@@ -90,13 +88,22 @@ h1{
   /* left: 4.8%; */
   line-height: 105%;
 }
-.concept_container p{
+.concept{
+  position: absolute;
+  /* background: red; */
+  width: 48%;
+  height: 25%;
+  top: 15%;
+  left: 4.9%;
+  /* opacity: .5; */
+}
+.concept p{
   font-size: 23px;
   font-weight: normal;
   position: absolute;
-  left: 4.8%;
-  top: 15.1%;
-  width: 48%;
+  left: 0%;
+  top: 0%;
+  width: 100%;
   line-height: 40px
 }
 .semantica1{
@@ -247,13 +254,20 @@ h2{
   /* left: 4.8%; */
   line-height: 105%;
 }
-.logostart_container p{
+.logostart{
+  position: absolute;
+  width: 46%;
+  height: 8%;
+  top:6.4%;
+  left: 4.8%;
+}
+.logostart p{
   font-size: 23px;
   font-weight: normal;
   position: absolute;
-  left: 4.8%;
-  top: 6.5%;
-  width: 48%;
+  left: 0%;
+  top: 0%;
+  width: 100%;
   line-height: 40px
 }
 .logohalf{
@@ -578,7 +592,6 @@ h2{
   position: relative;
   width: 100%;
   height: 3.42793205%;
-
 }
 #colors_title{
   font-size: 58px;
@@ -1147,12 +1160,12 @@ h2{
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-.photo_container{
+#photo_container{
   position: relative;
   width: 100%;
   height: 6.94741125%;
 }
-#photo_title{
+.photo_title{
   position: absolute;
   font-size: 58px;
   font-weight: 700;
