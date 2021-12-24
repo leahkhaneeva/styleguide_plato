@@ -4,13 +4,10 @@ p, h1, h2{
 
   .topmenu{
   position: fixed;
-  width: 100%;
-  /* height: 9.1%; */
-  padding-bottom: 5%;
+  width: 100vw;
+  padding-bottom: 5vw;
   background: #FE724D;
-  /* background: yellow; */
   z-index: 1;
-  /* opacity: .5; */
 }
 .topmenu_items{
   position: absolute;
@@ -1262,16 +1259,14 @@ h2{
 .graphics_container{
   position: relative;
   width: 100%;
-  height: 6.94741125%;
-  /* background: blue;
-  opacity: 0.5; */
+  height: 4.56718543%;
 }
 #graphics_title{
   position: absolute;
   font-size: 58px;
   font-weight: 700;
   width: 30%;
-  top: 4.8%;
+  top: 7.4%;
   left: 4.7%;
   line-height: 105%;
 }
@@ -1279,7 +1274,7 @@ h2{
   position: absolute;
   width: 46%;
   height: 21%;
-  top: 10.75%;
+  top: 16.3%;
   left: 4.9%;
   /* background: blue;
   opacity: 0.5; */
@@ -1292,4 +1287,302 @@ h2{
   top: -0.5%;
   width: 100%;
   line-height: 40px
+}
+.mexico{
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  left: 8.5%;
+  top: 58.6%;
+  width: 100%;
+  line-height: 40px
+}
+.brazil{
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  left: 34%;
+  top: 58.6%;
+  width: 100%;
+  line-height: 40px
+}
+.japan{
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  left: 65.5%;
+  top: 58.6%;
+  width: 100%;
+  line-height: 40px
+}
+.africa{
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  left: 86.9%;
+  top: 58.6%;
+  width: 100%;
+  line-height: 40px
+}
+.graphicsimg1{
+  position: absolute;
+  width: 14.19375%;
+  height: 18.9665924%;
+  background-image: url('../images/graphics1.png');
+  top: 68.6%;
+  left: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.graphicsimg2{
+  position: absolute;
+  width: 27.8493056%;
+  height: 18.9665924%;
+  top: 68.6%;
+  left: 24.25%;
+  background-image: url('../images/graphics2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.graphicsimg3{
+  position: absolute;
+  width: 23.1180556%;
+  height: 14.655902%;
+  top: 70.9%;
+  left: 57.2%;
+  background-image: url('../images/graphics3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.graphicsimg4{
+  position: absolute;
+  width: 9.6777778%;
+  height: 18.9665924%;
+  top: 68.6%;
+  right: 5%;
+  background-image: url('../images/graphics4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.tone_container{
+  position: relative;
+  width: 100%;
+  height: 2.03438104%;
+  /* background: green;
+  opacity: 0.5; */
+}
+#tone_title{
+  position: absolute;
+  font-size: 58px;
+  font-weight: 700;
+  width: 30%;
+  top: 7.4%;
+  left: 4.7%;
+  line-height: 105%;
+}
+.tone{
+  position: absolute;
+  width: 46%;
+  height: 50%;
+  top: 27%;
+  left: 4.9%;
+  /* background: blue;
+  opacity: 0.5; */
+}
+.tone p{
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  left: -0.2%;
+  top: 0%;
+  width: 100%;
+  line-height: 40px
+}
+.mockups_container{
+  position: relative;
+  width: 100%;
+  height: 18.7671651%;
+}
+#mockups_title{
+  position: absolute;
+  font-size: 58px;
+  font-weight: 700;
+  width: 30%;
+  top: 0.98%;
+  left: 4.7%;
+  line-height: 105%;
+}
+.mockups1{
+  position: absolute;
+  width: 48%;
+  height: 1.5%;
+  top: 3.3%;
+  left: 5%;
+  /* background: blue;
+  opacity: 0.5; */
+}
+.mockups1 h2{
+  top: -0.55%;
+  position: absolute;
+  left: -0.55%;
+}
+.mockupsimg1{
+  position: absolute;
+  width: 74.6527778%;
+  height: 19.403794%;
+  top: 5.9%;
+  left: 5%;
+  background-image: url('../images/mockup1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockupsimg2{
+  position: absolute;
+  width: 74.6527778%;
+  height: 18.0487805%;
+  top: 26.1%;
+  left: 5%;
+  background-image: url('../images/mockup2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockups2{
+  position: absolute;
+  width: 20%;
+  height: 1.5%;
+  top: 47.35%;
+  left: 4.9%;
+}
+.mockups2 h2{
+  top: -0.55%;
+  position: absolute;
+  left: -0.55%;
+}
+.mockups_row1{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  top: 49.98%;
+  height: 11.4092141%;
+}
+.mockupsimg3{
+  width: 48.9953632%;
+  height: 100%;
+  background-image: url('../images/mockup3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockupsimg4{
+  width: 48.9953632%;
+  height: 100%;
+  background-image: url('../images/mockup4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockups_row2{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  top: 62.18%;
+  height: 10.7859079%;
+}
+.mockupsimg5{
+  width: 48.9953632%;
+  height: 100%;
+  background-image: url('../images/mockup5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockupsimg6{
+  width: 48.9953632%;
+  height: 100%;
+  background-image: url('../images/mockup6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockups_row3{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  top: 73.75%;
+  height: 10.7859079%;
+}
+.mockupsimg7{
+  width: 48.9953632%;
+  height: 100%;
+  background-image: url('../images/mockup7.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockupsimg8{
+  width: 48.9953632%;
+  height: 100%;
+  background-image: url('../images/mockup8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockups_row4{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  top: 85.3%;
+  height: 11.4363144%;
+}
+.mockupsimg9{
+  width: 48.9953632%;
+  height: 100%;
+  background-image: url('../images/mockup9.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.mockupsimg10{
+  width: 48.9953632%;
+  height: 100%;
+  background-image: url('../images/mockup10.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
