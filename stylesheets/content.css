@@ -8,8 +8,8 @@ p, h1, h2{
   padding-bottom: 5vw;
   background: #FE724D;
   z-index: 1;
-  /* left: 0;
-  right: 0; */
+  left: 0;
+  right: 0;
 }
 .topmenu_items{
   position: absolute;
