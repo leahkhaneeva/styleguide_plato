@@ -1,12 +1,15 @@
 p, h1, h2{
   color: #131313;
   }
+  body{
+    background: #FFFCF7;
+  }
 
   .topmenu{
   position: fixed;
   width: 100vw;
   padding-bottom: 5vw;
-  background: #FE724D;
+  background: #F76A1B;
   z-index: 1;
   left: 0;
   right: 0;
@@ -30,12 +33,18 @@ p, h1, h2{
 .firstscreen_container{
   position: relative;
   width: 100%;
-  height: 4.48072424%;
+  height: 3.93533792%;
   background: #FE724D;
   margin-top: 4.7%;
   /* opacity: .5; */
   background: #FE724D;
   display: block;
+  background-image: url('../images/plates cover.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  overflow: visible;
 }
 h1{
   font-size: 58px;
@@ -58,8 +67,9 @@ h1{
   position: absolute;
   left: 4.8%;
   top: 36%;
+
 }
-.plate1{
+/* .plate1{
   position: absolute;
   display: block;
   width: 43.9583333%;
@@ -71,11 +81,11 @@ h1{
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-}
+} */
 #concept_container{
   position: relative;
   width: 100%;
-  height: 6.92706744%;
+  height: 5.08939552%;
   display: block;
 }
 .concept_title{
@@ -83,7 +93,7 @@ h1{
   font-weight: 700;
   width: 30%;
   position: absolute;
-  top: 8.5%;
+  top: 8.2%;
   left: 4.7%;
   /* left: 4.8%; */
   line-height: 105%;
@@ -93,7 +103,7 @@ h1{
   /* background: red; */
   width: 48%;
   height: 25%;
-  top: 15%;
+  top: 16.5%;
   left: 4.9%;
   /* opacity: .5; */
 }
@@ -106,86 +116,7 @@ h1{
   width: 100%;
   line-height: 40px
 }
-.semantica1{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 17.3%;
-  left: 66.5%;
-  font-size: 23px;
-}
-.semantica2{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 26%;
-  left: 50.8%;
-  font-size: 23px;
-}
-.semantica3{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 26%;
-  right: 8.5%;
-  font-size: 23px;
-}
-.semantica4{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 34.5%;
-  right: 4.9%;
-  font-size: 23px;
-}
-.semantica5{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 40.55%;
-  left: 42.8%;
-  font-size: 23px;
-}
-.semantica6{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 43.3%;
-  left: 19.3%;
-  font-size: 23px;
-}
-.semantica7{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 45%;
-  left: 58.8%;
-  font-size: 23px;
-}
-.semantica8{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 47.9%;
-  left: 4.9%;
-  font-size: 23px;
-}
-.semantica9{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 49.2%;
-  left: 34.9%;
-  font-size: 23px;
-}
-.semantica10{
-  font-weight: 600;
-  position: absolute;
-  color: #FE724D;
-  top: 49.2%;
-  right:7.1%;
-  font-size: 23px;
-}
+
 h2{
   font-size: 40px;
   font-weight: 600;
@@ -196,7 +127,7 @@ h2{
   /* background: red; */
   width: 48%;
   height: 14%;
-  top: 59.5%;
+  top: 56.2%;
   left: 5%;
   /* opacity: .5; */
 }
@@ -211,7 +142,7 @@ h2{
   font-weight: normal;
   position: absolute;
   left: 0%;
-  top: 32%;
+  top: 40.5%;
   width: 100%;
   line-height: 40px
 }
@@ -219,7 +150,7 @@ h2{
   position: absolute;
   width: 48%;
   height: 14%;
-  top: 81%;
+  top: 83.5%;
   left: 5%;
 }
 .mission h2{
@@ -233,14 +164,14 @@ h2{
   font-weight: normal;
   position: absolute;
   left: 0%;
-  top: 30.5%;
+  top: 39%;
   width: 100%;
   line-height: 40px
 }
-.logostart_container{
+#logostart_container{
   position: relative;
   width: 100%;
-  height: 7.6%;
+  height: 7.43070665%;
   /* background: blue;
   opacity: .5; */
 }
@@ -249,16 +180,17 @@ h2{
   font-weight: 700;
   width: 30%;
   position: absolute;
-  top: 0.5%;
+  top: 5.7%;
   left: 4.8%;
   /* left: 4.8%; */
   line-height: 105%;
+
 }
 .logostart{
   position: absolute;
   width: 46%;
   height: 8%;
-  top:6.4%;
+  top:11.3%;
   left: 4.8%;
 }
 .logostart p{
@@ -276,7 +208,7 @@ h2{
   width: 10.6777778%;
   height: 20.2141901%;
   left: 4.8%;
-  top: 15.2%;
+  top: 19.1%;
   background-image: url('../images/logohalf.png');
   background-size: cover;
   background-position: center;
@@ -289,7 +221,7 @@ h2{
   width: 2.37986111%;
   height: 2.22623829%;
   left: 22.9%;
-  top: 24.25%;
+  top: 28.1%;
   background-image: url('../images/plus.png');
   background-size: cover;
   background-position: center;
@@ -302,7 +234,7 @@ h2{
   width: 20.9722222%;
   height: 21%;
   left: 35.6%;
-  top: 14.66%;
+  top: 18.8%;
   background-image: url('../images/emptyplate.png');
   background-size: cover;
   background-position: center;
@@ -314,8 +246,8 @@ h2{
   display: block;
   width: 2.37986111%;
   height: 1.78313253%;
-  left: 63.5%;
-  top: 24.5%;
+  left: 63.6%;
+  top: 28.4%;
   background-image: url('../images/equal.png');
   background-size: cover;
   background-position: center;
@@ -328,7 +260,7 @@ h2{
   width: 20.9722222%;
   height: 25.2%;
   right: 5%;
-  top: 14.5%;
+  top: 18.5%;
   background-image: url('../images/logofull.png');
   background-size: cover;
   background-position: center;
@@ -339,7 +271,7 @@ h2{
   position: absolute;
   width: 45%;
   height: 14%;
-  top: 47.3%;
+  top: 50.1%;
   left: 5%;
 
 }
@@ -354,7 +286,7 @@ h2{
   font-weight: normal;
   position: absolute;
   left: -0.2%;
-  top: 28.5%;
+  top: 28%;
   width: 100%;
   line-height: 40px
 }
@@ -364,7 +296,7 @@ h2{
   width: 31.3888889%;
   height: 30.4551539%;
   left: 34.3%;
-  top: 62.61%;
+  top: 64.1%;
   background-image: url('../images/ohrpole.png');
   background-size: cover;
   background-position: center;
@@ -374,15 +306,14 @@ h2{
 .logoyellow_container{
   position: relative;
   width: 100%;
-  height: 7.241%;
-  background: #FFBE4D;
+  height: 6.62189008%;
   /* opacity: 0.5; */
 }
 .usage{
   position: absolute;
   width: 45%;
   height: 14%;
-  top: 6.2%;
+  top: 6.6%;
   left: 5%;
   /* background: red;
   opacity: 0.5; */
@@ -399,7 +330,7 @@ h2{
   font-weight: normal;
   position: absolute;
   left: -0.2%;
-  top: 28.5%;
+  top: 29.2%;
   width: 100%;
   line-height: 40px
 }
@@ -409,7 +340,7 @@ h2{
   width: 22.7777778%;
   height: 23.5%;
   left: 38.7%;
-  top: 19.3%;
+  top: 20.2%;
   background-image: url('../images/usage1.png');
   background-size: cover;
   background-position: center;
@@ -420,7 +351,7 @@ h2{
   position: absolute;
   width: 47%;
   height: 14%;
-  top: 51%;
+  top: 52.1%;
   left: 5%;
 
 }
@@ -438,9 +369,9 @@ h2{
   display: block;
   width: 22.7777778%;
   height: 23.5%;
-  left: 21.1%;
-  top: 67.8%;
-  background-image: url('../images/usage2.png');
+  left: 5%;
+  top: 66.7%;
+  background-image: url('../images/culture1.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -451,9 +382,22 @@ h2{
   display: block;
   width: 22.7777778%;
   height: 23.5%;
-  left: 56.1%;
-  top: 67.8%;
-  background-image: url('../images/usage3.png');
+  left: 38.5%;
+  top: 66.7%;
+  background-image: url('../images/culture2.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.usageimg4{
+  position: absolute;
+  display: block;
+  width: 22.7777778%;
+  height: 23.5%;
+  right: 5%;
+  top: 66.7%;
+  background-image: url('../images/culture3.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -462,15 +406,15 @@ h2{
 .logorest_container{
   position: relative;
   width: 100%;
-  height: 9.4242701%;
+  height: 8.26790275%;
   /* background: blue;
   opacity: 0.5; */
 }
 .restrictions1{
   position: absolute;
   width: 45%;
-  height: 8%;
-  top: 6.2%;
+  height: 9%;
+  top: 6%;
   left: 5%;
   /* background: red;
   opacity: 0.5; */
@@ -487,7 +431,7 @@ h2{
   font-weight: normal;
   position: absolute;
   left: -0.2%;
-  top: 45%;
+  top: 40%;
   width: 100%;
   line-height: 40px
 }
@@ -495,10 +439,10 @@ h2{
   position: absolute;
   display: block;
   width: 21.25%;
-  height: 19.5348084%;
+  height: 20.708238%;
   left: 4.9%;
-  top: 16.8%;
-  background-image: url('../images/rest1.png');
+  top: 17.1%;
+  background-image: url('../images/rest1.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -508,10 +452,10 @@ h2{
   position: absolute;
   display: block;
   width: 22.7777778%;
-  height: 9.39017809%;
+  height: 9.9542334%;
   left: 39.1%;
-  top: 17.9%;
-  background-image: url('../images/rest2.png');
+  top: 18.3%;
+  background-image: url('../images/rest2.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -521,7 +465,7 @@ h2{
   position: absolute;
   width: 45%;
   height: 4%;
-  top: 43%;
+  top: 45%;
   left: 5%;
 }
 .restrictions2 p{
@@ -537,10 +481,10 @@ h2{
   position: absolute;
   display: block;
   width: 20.9722222%;
-  height: 16.2978953%;
+  height: 17.2768879%;
   left: 4.9%;
-  top: 49.4%;
-  background-image: url('../images/rest3.png');
+  top: 51.8%;
+  background-image: url('../images/rest3.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -550,10 +494,10 @@ h2{
   position: absolute;
   display: block;
   width: 20.9722222%;
-  height: 16.2978953%;
+  height: 17.2768879%;
   left: 39.5%;
-  top: 49.4%;
-  background-image: url('../images/rest4.png');
+  top: 51.8%;
+  background-image: url('../images/rest4.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -563,7 +507,7 @@ h2{
   position: absolute;
   width: 45%;
   height: 2%;
-  top: 72%;
+  top: 75.67%;
   left: 5%;
 }
 .restrictions3 p{
@@ -579,26 +523,27 @@ h2{
   position: absolute;
   display: block;
   width: 20.9722222%;
-  height: 16.2978953%;
+  height: 17.2768879%;
   left: 4.9%;
-  top: 76.8%;
-  background-image: url('../images/rest5.png');
+  top: 80.85%;
+  background-image: url('../images/rest5.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-.colors_container{
+#colors_container{
   position: relative;
   width: 100%;
-  height: 3.42793205%;
+  height: 6.07794911%;
+
 }
 #colors_title{
   font-size: 58px;
   font-weight: 700;
   width: 30%;
   position: absolute;
-  top: 2%;
+  top: 8.2%;
   left: 4.7%;
   /* left: 4.8%; */
   line-height: 105%;
@@ -623,7 +568,7 @@ h2{
   position: absolute;
   width: 43%;
   height: 16%;
-  top: 15%;
+  top: 21.2%;
   left: 5%;
   /* background: red;
   opacity: 0.5; */
@@ -633,7 +578,7 @@ h2{
   font-weight: normal;
   position: absolute;
   left: -0.2%;
-  top: -7%;
+  top: -42%;
   width: 100%;
   line-height: 40px
 }
@@ -645,28 +590,28 @@ h2{
   width: 90%;
   left: 5%;
   right: 5%;
-  top: 39.2%;
-  height: 28.189911%;
+  top: 27.9%;
+  height: 14.7859922%;
 }
 .yellowcolor{
   height: 100%;
   width: 14.6604938%;
-  background: #FFBE4D;
+  background: #FFA700;
 }
 .orangecolor{
   height: 100%;
   width: 14.6604938%;
-  background: #FE724D;
+  background: #F76A1B;
 }
 .bluecolor{
   height: 100%;
   width: 14.6604938%;
-  background: #4F8AEA;
+  background: #5395FF;
 }
 .greencolor{
   height: 100%;
   width: 14.6604938%;
-  background: #75B875;
+  background: #57A357;
 }
 .blackcolor{
   height: 100%;
@@ -682,9 +627,9 @@ h2{
 }
 .color_label1{
   position: absolute;
-  width: 12%;
+  width: 12.5%;
   height: 5%;
-  top: 69.2%;
+  top: 43.8%;
   left: 5%;
 }
 .color_label1 p{
@@ -700,7 +645,7 @@ h2{
   position: absolute;
   width: 12%;
   height: 5%;
-  top: 69.2%;
+  top: 43.8%;
   left: 20.3%;
 }
 .color_label2 p{
@@ -716,7 +661,7 @@ h2{
   position: absolute;
   width: 12%;
   height: 5%;
-  top: 69.2%;
+  top: 43.8%;
   left: 35.65%;
 }
 .color_label3 p{
@@ -732,7 +677,7 @@ h2{
   position: absolute;
   width: 12%;
   height: 5%;
-  top: 69.2%;
+  top: 43.8%;
   left: 51%;
 }
 .color_label4 p{
@@ -748,7 +693,7 @@ h2{
   position: absolute;
   width: 12%;
   height: 5%;
-  top: 69.2%;
+  top: 43.8%;
   left: 66.3%;
 }
 .color_label5 p{
@@ -764,7 +709,7 @@ h2{
   position: absolute;
   width: 12%;
   height: 5%;
-  top: 69.2%;
+  top: 43.8%;
   left: 81.65%;
 }
 .color_label6 p{
@@ -776,10 +721,106 @@ h2{
   width: 100%;
   line-height: 40px
 }
-.typography_container{
+.colors2{
+  position: absolute;
+  width: 45%;
+  height: 16%;
+  top: 64.5%;
+  left: 5%;
+  /* background: red;
+  opacity: 0.5; */
+}
+.colors2 p{
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  left: -0.2%;
+  top: -42%;
+  width: 100%;
+  line-height: 40px
+}
+.panel1{
+  position: absolute;
+  display: block;
+  width: 23%;
+  height: 26.5%;
+  left: 4%;
+  top: 70%;
+  background-image: url('../images/panel1.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.panel2{
+  position: absolute;
+  display: block;
+  width: 23%;
+  height: 26.5%;
+  left: 27%;
+  top: 70%;
+  background-image: url('../images/panel2.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.panel3{
+  position: absolute;
+  display: block;
+  width: 23%;
+  height: 26.5%;
+  left: 50%;
+  top: 70%;
+  background-image: url('../images/panel3.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.panel4{
+  position: absolute;
+  display: block;
+  width: 23%;
+  height: 26.5%;
+  left: 73%;
+  top: 70%;
+  background-image: url('../images/panel4.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.cat1{
+  position: absolute;
+  font-size: 18px;
+  top: 96.2%;
+  left:19.8%;
+}
+.cat2{
+  position: absolute;
+  font-size: 18px;
+  top: 96.2%;
+  left:44%;
+}
+.cat3{
+  position: absolute;
+  font-size: 18px;
+  top: 96.2%;
+  left:67%;
+}
+.cat4{
+  position: absolute;
+  font-size: 18px;
+  top: 96.2%;
+  left:89%;
+}
+#typography_container{
   position: relative;
   width: 100%;
-  height: 4.6994202%;
+  height: 4.55018447%;
+
 }
 #typography_title{
   position: absolute;
@@ -787,7 +828,7 @@ h2{
   font-weight: 700;
   width: 30%;
   left: 4.7%;
-  top: 0%;
+  top: 11%;
   left: 4.9%;
   line-height: 105%;
 }
@@ -795,7 +836,7 @@ h2{
   position: absolute;
   width: 48%;
   height: 12%;
-  top: 9.5%;
+  top: 20.1%;
   left: 5%;
   /* background: red;
   opacity: 0.5; */
@@ -813,7 +854,7 @@ h2{
   position: absolute;
   width: 37%;
   height: 12%;
-  top: 9.5%;
+  top: 20.1%;
   right: 4.45%;
 }
 .alphabet p{
@@ -829,7 +870,7 @@ h2{
   position: absolute;
   width: 45%;
   height: 15%;
-  top: 33%;
+  top: 42.7%;
   left: 5%;
 }
 .typstyles h2{
@@ -842,7 +883,7 @@ h2{
   font-weight: normal;
   position: absolute;
   left: -0.2%;
-  top: 45.5%;
+  top: 45%;
   width: 100%;
   line-height: 40px
 }
@@ -852,7 +893,7 @@ h2{
   font-size: 58px;
   font-weight: 700;
   color: #131313;
-  top: 60%;
+  top: 68.6%;
 }
 .zagolovok_size{
   position: absolute;
@@ -860,7 +901,7 @@ h2{
   font-size: 58px;
   font-weight: 700;
   color: #131313;
-  top: 60%;
+  top: 68.6%;
 }
 .zagolovok_x{
   position: absolute;
@@ -868,7 +909,7 @@ h2{
   font-size: 23px;
   font-weight: normal;
   color: #131313;
-  top: 63.15%;
+  top: 71.7%;
 }
 .podzagolovok{
   position: absolute;
@@ -876,7 +917,7 @@ h2{
   font-size: 48px;
   font-weight: 600;
   color: #131313;
-  top: 70.4%;
+  top: 78.5%;
 }
 .podzagolovok_size{
   position: absolute;
@@ -884,7 +925,7 @@ h2{
   font-size: 48px;
   font-weight: 600;
   color: #131313;
-  top: 70.4%;
+  top: 78.5%;
 }
 .podzagolovok_x{
   position: absolute;
@@ -892,7 +933,7 @@ h2{
   font-size: 23px;
   font-weight: normal;
   color: #131313;
-  top: 72.7%;
+  top: 81%;
 }
 .text{
   position: absolute;
@@ -900,7 +941,7 @@ h2{
   font-size: 23px;
   font-weight: normal;
   color: #131313;
-  top: 79.95%;
+  top: 87.6%;
 }
 .text_size{
   position: absolute;
@@ -908,7 +949,7 @@ h2{
   font-size: 23px;
   font-weight: normal;
   color: #131313;
-  top: 79.95%;
+  top: 87.6%;
 }
 .text_x{
   position: absolute;
@@ -916,7 +957,7 @@ h2{
   font-size: 23px;
   font-weight: normal;
   color: #131313;
-  top: 79.8%;
+  top: 87.7%;
 }
 .knopka{
   position: absolute;
@@ -924,7 +965,7 @@ h2{
   font-size: 21px;
   font-weight: 600;
   color: #131313;
-  top: 87%;
+  top: 94.6%;
 }
 .knopka_size{
   position: absolute;
@@ -932,7 +973,7 @@ h2{
   font-size: 21px;
   font-weight: 600;
   color: #131313;
-  top: 87%;
+  top: 94.6%;
 }
 .knopka_x{
   position: absolute;
@@ -940,12 +981,12 @@ h2{
   font-size: 23px;
   font-weight: normal;
   color: #131313;
-  top: 86.8%;
+  top: 94.6%;
 }
-.setka_container{
+#setka_container{
   position: relative;
   width: 100%;
-  height: 23.5479605%;
+  height: 22.2542806%;
 }
 #setka_title{
   position: absolute;
@@ -953,15 +994,15 @@ h2{
   font-weight: 700;
   width: 30%;
   left: 4.7%;
-  top: 0.8%;
+  top: 2.25%;
   left: 4.9%;
   line-height: 105%;
 }
 .setka1{
   position: absolute;
-  width: 46%;
+  width: 52%;
   height: 3%;
-  top: 2.55%;
+  top: 4%;
   left: 5%;
 }
 .setka1 p{
@@ -979,7 +1020,7 @@ h2{
   width: 59.3055556%;
   height: 11.4686825%;
   left: 20.35%;
-  top: 6.22%;
+  top: 7.5%;
   background-image: url('../images/setka1.jpg');
   background-size: cover;
   background-position: center;
@@ -990,7 +1031,7 @@ h2{
   position: absolute;
   width: 48%;
   height: 3%;
-  top: 20%;
+  top: 21.2%;
   left: 5%;
   /* background: red;
   opacity: 0.5; */
@@ -1010,7 +1051,7 @@ h2{
   width: 28.6805556%;
   height: 13.3909287%;
   left: 5%;
-  top: 23.82%;
+  top: 24.8%;
   background-image: url('../images/setka2.jpg');
   background-size: cover;
   background-position: center;
@@ -1023,7 +1064,7 @@ h2{
   width: 44.0277778%;
   height: 13.6933045%;
   left: 35.7%;
-  top: 21.55%;
+  top: 22.54%;
   background-image: url('../images/setka3.jpg');
   background-size: cover;
   background-position: center;
@@ -1034,7 +1075,7 @@ h2{
   position: absolute;
   width: 45%;
   height: 5%;
-  top: 39.78%;
+  top: 40.65%;
   left: 5%;
 }
 .composition h2{
@@ -1047,7 +1088,7 @@ h2{
   font-weight: normal;
   position: absolute;
   left: -0.2%;
-  top: 27%;
+  top: 26.2%;
   width: 100%;
   line-height: 40px
 }
@@ -1055,7 +1096,7 @@ h2{
   position: absolute;
   width: 45%;
   height: 3.5%;
-  top: 46.065%;
+  top: 46.8%;
   left: 5%;
   /* background: red;
   opacity: 0.5; */
@@ -1080,7 +1121,7 @@ h2{
   width: 28.6805556%;
   height: 13.3909287%;
   left: 5%;
-  top: 50.2%;
+  top: 50.75%;
   background-image: url('../images/comp1.jpg');
   background-size: cover;
   background-position: center;
@@ -1093,7 +1134,7 @@ h2{
   width: 28.6805556%;
   height: 13.3909287%;
   left: 35.7%;
-  top: 50.2%;
+  top: 50.75%;
   background-image: url('../images/comp2.jpg');
   background-size: cover;
   background-position: center;
@@ -1104,7 +1145,7 @@ h2{
   position: absolute;
   width: 48%;
   height: 2%;
-  top: 66%;
+  top: 66.4%;
   left: 5%;
 }
 .comp2 p{
@@ -1122,7 +1163,7 @@ h2{
   width: 59.3055556%;
   height: 18.4449244%;
   left: 5%;
-  top: 65.75%;
+  top: 65.98%;
   background-image: url('../images/comp3.jpg');
   background-size: cover;
   background-position: center;
@@ -1133,7 +1174,7 @@ h2{
   position: absolute;
   width: 48%;
   height: 2%;
-  top: 83.2%;
+  top: 83.37%;
   left: 5%;
   /* background: red;
   opacity: 0.5; */
@@ -1163,7 +1204,8 @@ h2{
 #photo_container{
   position: relative;
   width: 100%;
-  height: 6.94741125%;
+  height: 9.7483682%;
+  /* background: yellow; */
 }
 .photo_title{
   position: absolute;
@@ -1171,7 +1213,7 @@ h2{
   font-weight: 700;
   width: 30%;
   left: 4.7%;
-  top: 8.4%;
+  top: 5.1%;
   left: 4.8%;
   line-height: 105%;
 }
@@ -1179,7 +1221,7 @@ h2{
   position: absolute;
   width: 46%;
   height: 15%;
-  top: 14.3%;
+  top: 9.2%;
   left: 4.9%;
   /* background: blue;
   opacity: 0.5; */
@@ -1201,8 +1243,8 @@ h2{
   width: 90%;
   left: 5%;
   right: 5%;
-  top: 32.5%;
-  height: 29.9414348%;
+  top: 21.3%;
+  height: 19.8447356%;
 }
 
 .photoimg1{
@@ -1241,8 +1283,8 @@ h2{
   width: 90%;
   left: 5%;
   right: 5%;
-  top: 64.5%;
-  height: 29.9414348%;
+  top: 42.5%;
+  height: 19.8447356%;
 }
 .photoimg4{
   width: 31.558642%;
@@ -1265,24 +1307,55 @@ h2{
 .photoimg6{
   width: 31.558642%;
   height: 100%;
-
   background-image: url('../images/photo6.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-.graphics_container{
+.photo2{
+  position: absolute;
+  width: 46%;
+  height: 15%;
+  top: 68%;
+  left: 4.9%;
+  /* background: blue;
+  opacity: 0.5; */
+}
+.photo2 p{
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  left: -0.2%;
+  top: -0.5%;
+  width: 100%;
+  line-height: 40px
+}
+.photoimg7{
+  position: relative;
+  display: block;
+  width: 91.5%;
+  height: 28%;
+  top: 73.6%;
+  left: 4.2%;
+  background-image: url('../images/photo7.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+#graphics_container{
   position: relative;
   width: 100%;
-  height: 4.56718543%;
+  height: 5.99754044%;
+  /* background: yellow */
 }
 #graphics_title{
   position: absolute;
   font-size: 58px;
   font-weight: 700;
   width: 30%;
-  top: 7.4%;
+  top: 8.4%;
   left: 4.7%;
   line-height: 105%;
 }
@@ -1290,7 +1363,7 @@ h2{
   position: absolute;
   width: 46%;
   height: 21%;
-  top: 16.3%;
+  top: 14.8%;
   left: 4.9%;
   /* background: blue;
   opacity: 0.5; */
@@ -1304,103 +1377,272 @@ h2{
   width: 100%;
   line-height: 40px
 }
-.mexico{
-  font-size: 23px;
-  font-weight: normal;
-  position: absolute;
-  left: 8.5%;
-  top: 58.6%;
-  width: 10%;
-  line-height: 40px
-}
-.brazil{
-  font-size: 23px;
-  font-weight: normal;
-  position: absolute;
-  left: 34%;
-  top: 58.6%;
-  width: 10%;
-  line-height: 40px
-}
-.japan{
-  font-size: 23px;
-  font-weight: normal;
-  position: absolute;
-  left: 65.5%;
-  top: 58.6%;
-  width: 10%;
-  line-height: 40px
-}
-.africa{
-  font-size: 23px;
-  font-weight: normal;
-  position: absolute;
-  left: 86.9%;
-  top: 58.6%;
-  width: 10%;
-  line-height: 40px
-}
-.graphicsimg1{
-  position: absolute;
-  width: 14.19375%;
-  height: 18.9665924%;
-  background-image: url('../images/graphics1.png');
-  top: 68.6%;
+.plate_row{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
   left: 5%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.graphicsimg2{
-  position: absolute;
-  width: 27.8493056%;
-  height: 18.9665924%;
-  top: 68.6%;
-  left: 24.25%;
-  background-image: url('../images/graphics2.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.graphicsimg3{
-  position: absolute;
-  width: 23.1180556%;
-  height: 14.655902%;
-  top: 70.9%;
-  left: 57.2%;
-  background-image: url('../images/graphics3.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.graphicsimg4{
-  position: absolute;
-  width: 9.6777778%;
-  height: 18.9665924%;
-  top: 68.6%;
   right: 5%;
-  background-image: url('../images/graphics4.png');
+  top: 45.7%;
+  height: 15.2350158%;
+  opacity: 0.8;
+}
+.box1{
+  position: relative;
+  display: flex;
+  width: 10.816421%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  align-items: flex-end;
+}
+.box1 p{
+  display: flex;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plate1{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 72.5489181%;
+  top: 0%;
+  left: 0%;
+  background-image: url('../images/plate1.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-.tone_container{
+
+.box2{
+  position: relative;
+  display: flex;
+  width: 10.816421%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  align-items: flex-end;
+}
+.box2 p{
+  display: flex;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plate2{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 72.5489181%;
+  top: 0%;
+  left: 0%;
+  background-image: url('../images/plate2.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.box3{
+  position: relative;
+  display: flex;
+  width: 10.8719809%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  align-items: flex-end;
+}
+.box3 p{
+  display: flex;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plate3{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 72.5489181%;
+  top: 0%;
+  left: 0%;
+  background-image: url('../images/plate3.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.box4{
+  position: relative;
+  display: flex;
+  width: 12.0379659%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  align-items: flex-end;
+}
+.box4 p{
+  display: flex;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plate4{
+  position: absolute;
+  display: block;
+  width: 89.8525641%;
+  height: 72.5489181%;
+  top: 0%;
+  left: 5%;
+  background-image: url('../images/plate4.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.box5{
+  position: relative;
+  display: flex;
+  width: 10.816431%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  align-items: flex-end;
+}
+.box5 p{
+  display: flex;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plate5{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 72.5489181%;
+  top: 0%;
+  left: 0%;
+  background-image: url('../images/plate5.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.box6{
+  position: relative;
+  display: flex;
+  width: 11.0348021%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  align-items: flex-end;
+}
+.box6 p{
+  display: flex;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plate6{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 72.5489181%;
+  top: 0%;
+  left: 0%;
+  background-image: url('../images/plate6.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.patterns_row{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  top: 52.2%;
+  height: 20.3067823%;
+}
+.pattern1{
+  position: relative;
+  display: flex;
+  width: 31.867284%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  background-image: url('../images/pattern1.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.pattern2{
+  position: relative;
+  display: flex;
+  width: 31.867284%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  background-image: url('../images/pattern2.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.pattern3{
+  position: relative;
+  display: flex;
+  width: 31.867284%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  background-image: url('../images/pattern3.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.patternstext{
+  font-size: 23px;
+  font-weight: normal;
+  position: absolute;
+  position: absolute;
+  width: 46%;
+  height: 21%;
+  top: 94.2%;
+  left: 4.9%;
+  line-height: 40px
+}
+
+#tone_container{
   position: relative;
   width: 100%;
-  height: 2.03438104%;
-  /* background: green;
-  opacity: 0.5; */
+  height: 1.92507804%;
 }
 #tone_title{
   position: absolute;
   font-size: 58px;
   font-weight: 700;
   width: 30%;
-  top: 7.4%;
+  top: 26%;
   left: 4.7%;
   line-height: 105%;
 }
@@ -1408,7 +1650,7 @@ h2{
   position: absolute;
   width: 46%;
   height: 50%;
-  top: 27%;
+  top: 45.8%;
   left: 4.9%;
   /* background: blue;
   opacity: 0.5; */
@@ -1422,17 +1664,17 @@ h2{
   width: 100%;
   line-height: 40px
 }
-.mockups_container{
+#mockups_container{
   position: relative;
   width: 100%;
-  height: 18.7671651%;
+  height: 17.7655851%;
 }
 #mockups_title{
   position: absolute;
   font-size: 58px;
   font-weight: 700;
   width: 30%;
-  top: 0.98%;
+  top: 2.85%;
   left: 4.7%;
   line-height: 105%;
 }
@@ -1440,7 +1682,7 @@ h2{
   position: absolute;
   width: 48%;
   height: 1.5%;
-  top: 3.3%;
+  top: 5.1%;
   left: 5%;
   /* background: blue;
   opacity: 0.5; */
@@ -1454,7 +1696,7 @@ h2{
   position: absolute;
   width: 74.6527778%;
   height: 19.403794%;
-  top: 5.9%;
+  top: 7.52%;
   left: 5%;
   background-image: url('../images/mockup1.jpg');
   background-size: cover;
@@ -1466,7 +1708,7 @@ h2{
   position: absolute;
   width: 74.6527778%;
   height: 18.0487805%;
-  top: 26.1%;
+  top: 27.4%;
   left: 5%;
   background-image: url('../images/mockup2.jpg');
   background-size: cover;
@@ -1478,7 +1720,7 @@ h2{
   position: absolute;
   width: 20%;
   height: 1.5%;
-  top: 47.35%;
+  top: 48.4%;
   left: 4.9%;
 }
 .mockups2 h2{
@@ -1494,14 +1736,14 @@ h2{
   width: 90%;
   left: 5%;
   right: 5%;
-  top: 49.98%;
+  top: 50.9%;
   height: 11.4092141%;
 }
 .mockupsimg3{
   width: 48.9953632%;
   height: 100%;
-  background-image: url('../images/mockup3.jpg');
-  background-size: cover;
+  background-image: url('../images/mmockup3.jpg');
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -1509,7 +1751,7 @@ h2{
 .mockupsimg4{
   width: 48.9953632%;
   height: 100%;
-  background-image: url('../images/mockup4.jpg');
+  background-image: url('../images/mmockup4.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1523,13 +1765,13 @@ h2{
   width: 90%;
   left: 5%;
   right: 5%;
-  top: 62.18%;
+  top: 62.9%;
   height: 10.7859079%;
 }
 .mockupsimg5{
   width: 48.9953632%;
   height: 100%;
-  background-image: url('../images/mockup5.jpg');
+  background-image: url('../images/mmockup9.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1538,7 +1780,7 @@ h2{
 .mockupsimg6{
   width: 48.9953632%;
   height: 100%;
-  background-image: url('../images/mockup6.jpg');
+  background-image: url('../images/mmockup6.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1552,13 +1794,13 @@ h2{
   width: 90%;
   left: 5%;
   right: 5%;
-  top: 73.75%;
+  top: 74.29%;
   height: 10.7859079%;
 }
 .mockupsimg7{
   width: 48.9953632%;
   height: 100%;
-  background-image: url('../images/mockup7.jpg');
+  background-image: url('../images/mmockup7.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1567,7 +1809,7 @@ h2{
 .mockupsimg8{
   width: 48.9953632%;
   height: 100%;
-  background-image: url('../images/mockup8.jpg');
+  background-image: url('../images/mmockup8.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1581,13 +1823,13 @@ h2{
   width: 90%;
   left: 5%;
   right: 5%;
-  top: 85.3%;
+  top: 85.5%;
   height: 11.4363144%;
 }
 .mockupsimg9{
   width: 48.9953632%;
   height: 100%;
-  background-image: url('../images/mockup9.jpg');
+  background-image: url('../images/mmockup5.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1596,7 +1838,7 @@ h2{
 .mockupsimg10{
   width: 48.9953632%;
   height: 100%;
-  background-image: url('../images/mockup10.jpg');
+  background-image: url('../images/mmockup10.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
